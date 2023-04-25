@@ -114,6 +114,19 @@ div.child-example p:nth-child(4){
 /* Pseudo Elements - used to style specified parts of an element */
 /* selector::psuedo-element{} */
 
+#first-line::first-line{
+    color: red;
+    font-variant: small-caps;
+}
+
+#first-line::first-letter{
+    color: blue;
+    font-size: 4em;
+}
+
+#after-example::after{
+    content: url('https://picsum.photos/100')
+}
 
 
 
